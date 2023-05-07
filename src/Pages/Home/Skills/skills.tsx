@@ -15,11 +15,11 @@ const Skills = () => {
     }];
 
     const backs = [{
-        name: 'MySql',
-        number: '80%'
-    }, {
         name: 'Node.js',
         number: '80%'
+    }, {
+        name: 'MySql',
+        number: '50%'
     }, {
         name: 'Python',
         number: '50%'

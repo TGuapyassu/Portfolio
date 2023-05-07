@@ -2,42 +2,54 @@ import styles from './Project.module.scss';
 
 const Projects = () => {
 
-    // const Dados1 = [{
-    //     title: "Calculadora",
-    //     desc: "Calculadora simples feita em React com TypeScript",
-    //     photo: "Assets/calculator.png",
-    //     link1: "https://tguapyassu.github.io/Calculator/",
-    //     link2: "https://github.com/TGuapyassu/Calculator"
-    // },
-    // {
-    //     title: "Landing Page",
-    //     desc: "Landing Page sobre um portal de noticias sobre skate feita em React",
-    //     photo: "Assets/skate.png",
-    //     link1: "https://tguapyassu.github.io/Skate/",
-    //     link2: "https://github.com/TGuapyassu/Skate"
-    // }]
+    const Dados1 = [{
+        title: "Gerador de Senha Online",
+        desc: "Gerador online para criar uma senha forte e segura",
+        photo: "https://raw.githubusercontent.com/TGuapyassu/PasswordGen/master/src/Assets/preview.png",
+        link1: "https://password-gen-eta.vercel.app/",
+        link2: "https://github.com/TGuapyassu/PasswordGen"
+    },
+    {
+        title: "ToDo List",
+        desc: "Todo List feito com React",
+        photo: "https://github.com/TGuapyassu/TodoList/blob/master/src/assets/preview.png?raw=true",
+        link1: "https://todo-list-sand-three.vercel.app/",
+        link2: "https://github.com/TGuapyassu/TodoList"
+    }, {
+        title: "Ping Pong",
+        desc: "Jogo Ping Pong feito com html e javaScript",
+        photo: "https://raw.githubusercontent.com/TGuapyassu/PingPong/master/preview.png",
+        link1: "https://ping-pong-self.vercel.app/",
+        link2: "https://github.com/TGuapyassu/PingPong"
+    }, {
+        title: "Api GitHub",
+        desc: "API do Github para pesquisar usuários",
+        photo: "https://raw.githubusercontent.com/TGuapyassu/ApiGitHub/master/src/assets/imgs/preview.png",
+        link1: "https://api-git-hub-sigma.vercel.app/",
+        link2: "https://github.com/TGuapyassu/ApiGitHub"
+    }]
 
-    // const Dados2 = [{
-    //     title: "Game Zumbi",
-    //     desc: "Jogo de Sobrevivência com zumbis feito na Unity",
-    //     photo: "Assets/ZumbiGame.png",
-    //     NameButton: "Demo",
-    //     link: "https://tguapyassu.itch.io/sobrevivencia"
-    // },
-    // {
-    //     title: "Assistente Virtual",
-    //     desc: "Assitente Virtual com alguns comandos basicos feito em Python",
-    //     photo: "Assets/Assistente.png",
-    //     NameButton: "Code",
-    //     link: "https://github.com/TGuapyassu/AssistenteVirtual"
-    // },
-    // {
-    //     title: "Flappy Bird",
-    //     desc: "Clone do jogo Flappy Bird com Inteligência Artificial Integrada",
-    //     photo: "Assets/FlappyBird.png",
-    //     NameButton: "Code",
-    //     link: "https://github.com/TGuapyassu/FlappyBird"
-    // }]
+    const Dados2 = [{
+        title: "Game Zumbi",
+        desc: "Jogo de Sobrevivência com zumbis feito na Unity",
+        photo: "",
+        NameButton: "Demo",
+        link: "https://tguapyassu.itch.io/sobrevivencia"
+    },
+    {
+        title: "Assistente Virtual",
+        desc: "Assistente pessoal virtual que escuta os seus comandos de voz e executa-os",
+        photo: "",
+        NameButton: "Code",
+        link: "https://github.com/TGuapyassu/AssistenteVirtual"
+    },
+    {
+        title: "Flappy Bird",
+        desc: "Clone do Jogo Flappy Bird com inteligencia artificial",
+        photo: "https://raw.githubusercontent.com/TGuapyassu/FlappyBird/master/imgs/game.png",
+        NameButton: "Code",
+        link: "https://github.com/TGuapyassu/FlappyBird"
+    }]
 
     return (
         <section className={styles.projects}>
@@ -45,7 +57,7 @@ const Projects = () => {
             <span className={styles.subtitle}>Most recent work</span>
 
             <div className={styles.container}>
-                {/* <ul className={styles.list}>
+                <ul className={styles.list}>
                     {Dados1.map((projet, index) => (
                         <li key={index}>
                             <div className={styles.post}>
@@ -95,7 +107,7 @@ const Projects = () => {
                             </div>
                         </li>
                     ))}
-                </ul> */}
+                </ul>
             </div>
         </section>
     )
