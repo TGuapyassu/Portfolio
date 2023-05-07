@@ -27,7 +27,7 @@ const Perfil = () => {
                         Estudante de Engenharia da Computação em busca de oportunidades
                         para aplicar e aprimorar habilidades em linguagens de programação.
                         <br /> <br />
-                        Computer Engineering student seeking opportunities to apply and enhance programming language skills.
+                        Computer Engineering student looking for opportunities to apply and enhance skills in programming languages.
                     </p>
                     <Link to='/contact'>
                         Contact Me <BiSend />

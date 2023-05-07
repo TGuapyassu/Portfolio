@@ -17,13 +17,13 @@ const Projects = () => {
         link2: "https://github.com/TGuapyassu/TodoList"
     }, {
         title: "Ping Pong",
-        desc: "Jogo Ping Pong feito com html e javaScript",
+        desc: "Jogo Ping Pong feito com Html e JavaScript",
         photo: "https://raw.githubusercontent.com/TGuapyassu/PingPong/master/preview.png",
         link1: "https://ping-pong-self.vercel.app/",
         link2: "https://github.com/TGuapyassu/PingPong"
     }, {
         title: "Api GitHub",
-        desc: "API do Github para pesquisar usuários",
+        desc: "API do GitHub para pesquisar usuários",
         photo: "https://raw.githubusercontent.com/TGuapyassu/ApiGitHub/master/src/assets/imgs/preview.png",
         link1: "https://api-git-hub-sigma.vercel.app/",
         link2: "https://github.com/TGuapyassu/ApiGitHub"
@@ -32,14 +32,14 @@ const Projects = () => {
     const Dados2 = [{
         title: "Game Zumbi",
         desc: "Jogo de Sobrevivência com zumbis feito na Unity",
-        photo: "",
+        photo: "https://raw.githubusercontent.com/TGuapyassu/Portfolio/master/src/Assets/gameZumbi.png",
         NameButton: "Demo",
         link: "https://tguapyassu.itch.io/sobrevivencia"
     },
     {
         title: "Assistente Virtual",
         desc: "Assistente pessoal virtual que escuta os seus comandos de voz e executa-os",
-        photo: "",
+        photo: "https://raw.githubusercontent.com/TGuapyassu/Portfolio/master/src/Assets/Assistente.png",
         NameButton: "Code",
         link: "https://github.com/TGuapyassu/AssistenteVirtual"
     },

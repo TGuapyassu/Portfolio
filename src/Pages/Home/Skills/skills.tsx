@@ -59,7 +59,7 @@ const Skills = () => {
                         <FaServer />
 
                         <div>
-                            <h1 className={styles.title__content}>Back-End Developer</h1>
+                            <h1 className={styles.title__content}>Back-End</h1>
                             {/* <span className={styles.subtitle__content}>More than 1 years</span> */}
                         </div>
                     </div>
