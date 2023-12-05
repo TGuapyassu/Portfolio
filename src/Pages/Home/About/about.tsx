@@ -13,16 +13,14 @@ const About = () => {
                     <div className={styles.description}>
                         <p>
                             Estudante de Engenharia da Computação. Apaixonado por entender o funcionamento das tecnologias e seus processos,
-                            sempre busco me atualizar em relação às últimas tendências e tecnologias. Curioso,
-                            atento aos detalhes e motivado a resolver problemas de forma criativa e eficiente.
+                            sempre busco me atualizar em relação às últimas tendências e tecnologias.
                             Possuo uma grande sede de aprendizado e estou sempre em busca de oportunidades para me desenvolver na área.
                             <br /> <br />
                             Computer Engineering student. Passionate about understanding how technologies and their processes work,
-                            I always seek to update myself regarding the latest trends and technologies. Curious, attentive to details,
-                            and motivated to solve problems in a creative and efficient way.
+                            I always seek to update myself regarding the latest trends and technologies.
                             I have a great thirst for learning and I am always looking for opportunities to develop myself in the field.
                         </p>
-                        <a href='https://1drv.ms/b/s!As5BrTKg5a8tgZ4OVklRD9Jztwuuow' target="__blank" className={styles.button}>
+                        <a href='https://1drv.ms/b/s!As5BrTKg5a8tgog8AXKsiL7UKl08-w?e=sgEtXP' target="__blank" className={styles.button}>
                             Download CV <BsDownload />
                         </a>
                     </div>
